@@ -1,0 +1,26 @@
+{
+  "name": "com.dz.smartaudio",
+  "version": "1.0.0",
+  "displayName": "SmartAudio",
+  "description": "Zero-setup, zero-GC fluent audio playback system with voice limiting, anti-monotony, dual-channel BGM crossfade, and object pooling for Unity.",
+  "unity": "2021.3",
+  "changelogUrl": "https://github.com/DanyZaky/com.dz.smartaudio/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://github.com/DanyZaky/com.dz.smartaudio#readme",
+  "homepage": "https://github.com/DanyZaky/com.dz.smartaudio",
+  "keywords": [
+    "audio",
+    "sound",
+    "sfx",
+    "bgm",
+    "fluent",
+    "pooling",
+    "zero-gc",
+    "voice-limiting",
+    "crossfade",
+    "smartaudio"
+  ],
+  "author": {
+    "name": "Dany Zaky",
+    "url": "https://danyzaky.dev"
+  }
+}
