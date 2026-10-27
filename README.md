@@ -133,10 +133,35 @@ Hassle-free background music and ambient audio without Coroutine boilerplate:
 <a id="installation"></a>
 ## Installation
 
-### Via Unity Package Manager (Local / Embedded)
-1. In Unity, open **Window > Package Manager**.
-2. Click the **+** button in the top left corner.
-3. Select **Add package from disk...** and choose `Packages/com.dz.smartaudio/package.json`.
+### Option 1: Via Unity Package Manager (Git URL - Recommended)
+1. In Unity, navigate to **Window** > **Package Manager**.
+2. Click the **+** icon in the top-left corner of the window.
+3. Select **Add package from git URL...**
+4. Paste the Git repository URL:
+   ```
+   https://github.com/DanyZaky/com.dz.smartaudio.git
+   ```
+   *(Optional)* To target a specific release tag or branch, append `#<tag>` (e.g. `#v1.0.0`):
+   ```
+   https://github.com/DanyZaky/com.dz.smartaudio.git#v1.0.0
+   ```
+5. Click **Add**.
+
+#### Alternatively via `Packages/manifest.json`:
+Add the repository directly to your Unity project's `Packages/manifest.json` under `"dependencies"`:
+```json
+{
+  "dependencies": {
+    "com.dz.smartaudio": "https://github.com/DanyZaky/com.dz.smartaudio.git"
+  }
+}
+```
+
+### Option 2: Via Unity Package Manager (Local / Embedded)
+1. Clone or download this repository.
+2. In Unity, open **Window** > **Package Manager**.
+3. Click the **+** icon in the top-left corner.
+4. Select **Add package from disk...** and choose the `package.json` file inside the package folder.
 
 ---
 
